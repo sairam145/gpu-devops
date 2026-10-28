@@ -1,0 +1,22 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Secrets — never commit these
+.env
+*.pem
+*.key
+
+# Downloaded installers and exported images
+get-docker.sh
+*.tar
